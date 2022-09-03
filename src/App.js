@@ -1,8 +1,6 @@
 import './App.css'
-import HelloWorld from './components/HelloWorld'
-import SayMyName from './components/SayMyName'
-import Pessoa from './components/Pessoa'
-import List from './components/List'
+import Evento from './components/Evento'
+import Form from './components/Form'
 
 function App() {
 
@@ -14,14 +12,12 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Como estás, {name}?</h1>
-      <p>Soma entre 5 e 9: {sum(5, 9)}</p>
-      <HelloWorld/>
-      <strong><SayMyName nome={name}/></strong>
-      <hr></hr>
-      <Pessoa foto="https://via.placeholder.com/100" nome="Breno" idade="18" profissao="Palhaço"/>
-      <hr></hr>
-      <List/>
+
+      <Evento numero={1}/>
+      <Evento numero={2}/>
+
+      <Form/>
+      
     </div>
   );
 }
