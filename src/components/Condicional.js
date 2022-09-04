@@ -10,7 +10,7 @@ function Condicional() {
         setUserEmail(email)
     }
 
-    function limparEmail(e) {
+    function limparEmail() {
         setUserEmail('')
     }
     
