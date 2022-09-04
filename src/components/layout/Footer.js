@@ -4,7 +4,8 @@ import styles from './Footer.module.css'
 function Footer() {
     return (
         <footer>
-            <p>Nosso rodapé</p>
+            <hr></hr>
+            <h5>Nosso rodapé:</h5>
             <ul className={styles.socialList}>
                 <li><FaFacebook/></li>
                 <li><FaInstagram/></li>
