@@ -1,22 +1,12 @@
 import './App.css'
-import Evento from './components/Evento'
-import Form from './components/Form'
+import Condicional from './components/Condicional';
 
 function App() {
 
-  const name = "Karl Marx"
-
-  function sum(a, b){
-    return a + b
-  }
-
   return (
     <div className="App">
-
-      <Evento numero={251}/>
-
-      <Form/>
-      
+      <h1>Renderização Condicional</h1>
+      <Condicional/>
     </div>
   );
 }
